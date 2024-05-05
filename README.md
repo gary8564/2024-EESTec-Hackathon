@@ -22,7 +22,7 @@ Our goal is to enhance the customer experience. To achieve this goal, generative
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/daveebbelaar/langchain-experiments.git
+git clone https://github.com/gary8564/2024-EESTec-Hackathon.git
 ```
 
 #### 2. Create a Python environment
@@ -32,14 +32,14 @@ Python 3.6 or higher using `venv` or `conda`.
 Using `venv`:
 
 ``` bash
-cd ArgGenius
+cd 2024-EESTec-Hackathon
 python3 -m venv env
 source env/bin/activate
 ```
 
 Using `conda`:
 ``` bash
-cd ArgGenius
+cd 2024-EESTec-Hackathon
 conda create -n langchain-env python=3.8
 conda activate langchain-env
 ```
