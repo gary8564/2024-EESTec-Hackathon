@@ -183,6 +183,9 @@ cython_debug/
 <<<<<<< HEAD
 
 # data
+data/
+*.pkl
+**/*.pkl
 *.csv
 .DS_Store
 **/.DS_Store
