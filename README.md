@@ -4,6 +4,9 @@ This repository focuses on experimenting the capacity of large language models (
 
 In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct), [Flan](https://huggingface.co/google/flan-t5-xxl), and [GPT](https://openai.com/) was used.
 
+## Idea Description
+Our goal is to enhance the customer experience. To achieve the goal, the generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
+
 
 ## Requirements
 
@@ -73,6 +76,10 @@ Run locally on your local machine.
 streamlit run app.py
 ```
 
+## Outcome
+After executing the file locally, a standalone desktop app will be shown as follows:
+(Please insert screenshot)
+In the first field, we can choose the database to beanalyzed between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en).
 
 ## Data Source
 
