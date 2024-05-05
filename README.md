@@ -1,12 +1,12 @@
 # 2024 EESTech Hackathon
 
-This repository focuses on experimenting the capacity of large language models (LLMs) in helping exploratory data analysis (EDA) of customer experience design (CX Design). 
+This repository focuses on experimenting with the capacity of large language models (LLMs) in helping exploratory data analysis (EDA) of customer experience design (CX Design). 
 
 In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct), [Flan](https://huggingface.co/google/flan-t5-xxl), and [GPT](https://openai.com/) was used.
 
 ## Idea Description
 
-Our goal is to enhance the customer experience. To achieve the goal, the generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
+Our goal is to enhance the customer experience. To achieve the goal, generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
 
 
 ## Requirements
@@ -82,21 +82,21 @@ streamlit run app.py
 After executing the file locally, a standalone desktop app will be shown as follows:
 (Please insert screenshot)
 
-In the first field, we can choose the database between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en). Accordingly, in the second field, we can select the corresponding repository name, which is the identical to the product name, to be analyzed. In the third field, we can determine the app to generate the analyzed result in terms of the Customer Experience Index (CX index).
+In the first field, we can choose the database between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en). Accordingly, in the second field, we can select the corresponding repository name, which is identical to the product name, to be analyzed. In the third field, we can determine the app to generate the analyzed result in terms of the Customer Experience Index (CX index).
 
 #### Customer Experience Index (CX Index)
 
-In this catagory, three aspects of the product: satisfaction, ease of use, and effectiveness, which follows the rule in [Customer Experience Index (CxPi)](https://www.satrixsolutions.com/blog/what-is-customer-experience-index-cxpi), are evaluated by LLM. The satisfaction score is displayed as Net Promoter Score (NPS), which is the percentage of promoters (satisfactory) subtracted by the percentage of detractors (unsatisfactory).
+In this category, three aspects of the product: satisfaction, ease of use, and effectiveness, follow the rule in [Customer Experience Index (CxPi)](https://www.satrixsolutions.com/blog/what-is-customer-experience-index-cxpi), are evaluated by LLM. The satisfaction score is displayed as the Net Promoter Score (NPS), which is the percentage of promoters (satisfactory) subtracted by the percentage of detractors (unsatisfactory).
 
 <center><img src="`r https://commons.wikimedia.org/wiki/File:NetPromoterScore-NPS.png#/media/File:NetPromoterScore-NPS.png`"></center>
-
+![](https://upload.wikimedia.org/wikipedia/commons/3/3c/NetPromoterScore-NPS.png)
 The score of ease of use is displayed as Customer Effort Score (CES), which is the percentage of consent (easy) subtracted by the percentage of dissent (difficult).
 
-Similarly, the effectiveness score is the the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
+Similarly, the effectiveness score is the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
 
 ## Outlook
 
-There are some aspects for the furture improvement: Train a more useful LLM, 
+There are some aspects for the future improvement: Train a more useful LLM, 
 
 ## Data Source
 
