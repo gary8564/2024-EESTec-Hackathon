@@ -95,9 +95,7 @@ In this category, three aspects of the product: satisfaction, ease of use, and e
 
 ![NetPromoterScore-NPS.png](https://github.com/gary8564/2024-EESTec-Hackathon/blob/main/image/NetPromoterScore-NPS.png)
 
-The score of ease of use is displayed as Customer Effort Score (CES), which is the percentage of consent (easy) subtracted by the percentage of dissent (difficult).
-
-Similarly, the effectiveness score is the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
+The score of ease of use is displayed as Customer Effort Score (CES), which is the percentage of consent (easy) subtracted by the percentage of dissent (difficult). Similarly, the effectiveness score is the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
 
 ## Outlook
 
@@ -110,6 +108,10 @@ The currently used LLM is from existing LLM which does not specialize in our def
 #### 2. Further classify the product
 
 Some of the current product names are trivial. For example, in [Infineon Github Issues](https://github.com/Infineon), there are names 'BlockchainSecurity2Go-Python-Library' and 'BlockchainSecurity2Go-Android', which could be integrated into the same product.
+
+#### 3. Adopt a better prompt strategy
+
+In our current approach, we send requests for the same product iteratively to LLM, which may lead to long operation time. The issue could be solved by sending a bunch of requests at once.
 
 ## Data Source
 
