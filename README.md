@@ -100,7 +100,7 @@ There are some aspects for future improvement.
 
 #### 1. Train a specific model
 
-The currently used LLM is from existing LLMs which does not specialize in our defined task. We should train a specific model to estimate the Customer Experience Index more precisely.
+The currently used LLM is from existing LLM which does not specialize in our defined task. We should train a specific model to estimate the Customer Experience Index more precisely.
 
 #### 2. Further classify the product
 
