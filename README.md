@@ -102,9 +102,9 @@ There are some aspects for future improvement.
 
 The currently used LLM are existing LLM which does not specialize in our defined task. We should train a specific model to estimate the Customer Experience Index more precisely.
 
-#### 2.
+#### 2. Further classify the product
 
-The classification of the repo could be better. For example, in Github's field, there are repository names 'BlockchainSecurity2Go-Python-Library' and 'BlockchainSecurity2Go-Android'.
+Some of the current product names are trivial. For example, in Github's field, there are names 'BlockchainSecurity2Go-Python-Library' and 'BlockchainSecurity2Go-Android', which could be integrated into the same product.
 
 ## Data Source
 
