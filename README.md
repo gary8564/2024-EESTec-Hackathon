@@ -6,7 +6,7 @@ In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-in
 
 ## Idea Description
 
-Our goal is to enhance the customer experience. To achieve the goal, generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
+Our goal is to enhance the customer experience. To achieve this goal, generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
 
 
 ## Requirements
@@ -89,7 +89,7 @@ In the first field, we can choose the database between [Infineon Github Issues](
 In this category, three aspects of the product: satisfaction, ease of use, and effectiveness, follow the rule in [Customer Experience Index (CxPi)](https://www.satrixsolutions.com/blog/what-is-customer-experience-index-cxpi), are evaluated by LLM. The satisfaction score is displayed as the Net Promoter Score (NPS), which is the percentage of promoters (satisfactory) subtracted by the percentage of detractors (unsatisfactory).
 
 <center><img src="`r https://commons.wikimedia.org/wiki/File:NetPromoterScore-NPS.png#/media/File:NetPromoterScore-NPS.png`"></center>
-![](https://upload.wikimedia.org/wikipedia/commons/3/3c/NetPromoterScore-NPS.png)
+![0](https://upload.wikimedia.org/wikipedia/commons/3/3c/NetPromoterScore-NPS.png)
 The score of ease of use is displayed as Customer Effort Score (CES), which is the percentage of consent (easy) subtracted by the percentage of dissent (difficult).
 
 Similarly, the effectiveness score is the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
