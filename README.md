@@ -80,7 +80,8 @@ streamlit run app.py
 ## Outcome
 
 After executing the file locally, a standalone desktop app will be shown as follows:
-(Please insert screenshot)
+
+![App.png](https://github.com/gary8564/2024-EESTec-Hackathon/blob/main/image/App.png)
 
 In the first field, we can choose the database between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en). Accordingly, in the second field, we can select the corresponding repository name, which is identical to the product name, to be analyzed. In the third field, we can determine the app to generate the analyzed result in terms of the Customer Experience Index (CX index).
 
