@@ -1,0 +1,11 @@
+python-dotenv
+streamlit
+langchain>=0.0.217
+langchain-openai
+langchain-community
+openai
+huggingface_hub
+vaderSentiment
+transformers
+torch
+beautifulsoup4
