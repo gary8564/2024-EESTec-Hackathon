@@ -90,8 +90,6 @@ In this category, three aspects of the product: satisfaction, ease of use, and e
 
 ![NetPromoterScore-NPS.png](https://github.com/gary8564/2024-EESTec-Hackathon/blob/main/image/NetPromoterScore-NPS.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/3c/NetPromoterScore-NPS.png?20240314201134)
-
 The score of ease of use is displayed as Customer Effort Score (CES), which is the percentage of consent (easy) subtracted by the percentage of dissent (difficult).
 
 Similarly, the effectiveness score is the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
