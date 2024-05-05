@@ -5,6 +5,7 @@ This repository focuses on experimenting the capacity of large language models (
 In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct), [Flan](https://huggingface.co/google/flan-t5-xxl), and [GPT](https://openai.com/) was used.
 
 ## Idea Description
+
 Our goal is to enhance the customer experience. To achieve the goal, the generative AI should identify pain points and evaluate product popularity by analyzing customer requests.
 
 
@@ -77,10 +78,17 @@ streamlit run app.py
 ```
 
 ## Outcome
+
 After executing the file locally, a standalone desktop app will be shown as follows:
 (Please insert screenshot)
-In the first field, we can choose the database to beanalyzed between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en).
+In the first field, we can choose the database between [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en). In the second field, we can select the corresponding repository name, which is the identical to the product name, to be analyzed. In the third field, we can determine the app to generate the analyzed result in terms of the Customer Experience Index (CX index).
+
+#### Customer Experience Index (CX Index)
+
+In this catagory, three aspects of the product: satisfaction, ease of use, and effectiveness, which follows the rule in [Customer Experience Index (CxPi)](https://www.satrixsolutions.com/blog/what-is-customer-experience-index-cxpi), are evaluated by the LLM model. The satisfaction score is displayed as Net Promoter Score (NPS), which is the result of the percentage of promoters (satisfactory) subtracted by the percentage of detractors (unsatisfactory). The score of ease of use is displayed as Customer Effort Score (CES), which is the result of the percentage of consent (easy) subtracted by the percentage of dissent (difficult). Similarly, the effectiveness score is the result of the percentage of consent (effective) subtracted by the percentage of dissent (ineffective). The customer experience index is then displayed, which is the sum of the three.
+
+
 
 ## Data Source
 
-The data is confidentially provided by [Infineon Github Issues](https://github.com/Infineon)
+The data is confidentially provided by [Infineon Github Issues](https://github.com/Infineon) and [Infineon Developer Community](https://community.infineon.com/?profile.language=en)
