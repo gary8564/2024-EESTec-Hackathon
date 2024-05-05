@@ -2,7 +2,7 @@
 
 This repository focuses on experimenting with the capacity of large language models (LLMs) in helping exploratory data analysis (EDA) of customer experience design (CX Design). 
 
-In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct), [Flan](https://huggingface.co/google/flan-t5-xxl), and [GPT](https://openai.com/) was used.
+In this project, [Falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct) was used.
 
 ## Idea Description
 
