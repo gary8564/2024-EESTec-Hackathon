@@ -96,15 +96,15 @@ Similarly, the effectiveness score is the percentage of consent (effective) subt
 
 ## Outlook
 
-There are some aspects for future improvement.
+There are some aspects for future improvement:
 
 #### 1. Train a specific model
 
-The currently used LLM is from existing LLM which does not specialize in our defined task. We should train a specific model to estimate the Customer Experience Index more precisely.
+The currently used LLM is from existing LLM which does not specialize in our defined task. If time allows, we should train a specific model to estimate the Customer Experience Index more precisely.
 
 #### 2. Further classify the product
 
-Some of the current product names are trivial. For example, in Github's field, there are names 'BlockchainSecurity2Go-Python-Library' and 'BlockchainSecurity2Go-Android', which could be integrated into the same product.
+Some of the current product names are trivial. For example, in [Infineon Github Issues](https://github.com/Infineon), there are names 'BlockchainSecurity2Go-Python-Library' and 'BlockchainSecurity2Go-Android', which could be integrated into the same product.
 
 ## Data Source
 
